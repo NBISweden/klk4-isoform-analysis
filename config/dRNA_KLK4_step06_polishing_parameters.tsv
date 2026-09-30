@@ -1,0 +1,53 @@
+read_set	isoform_id	expected_exons	template_read	freebayes_min_qual	phasing_sample	phased	in_final_set	final_name	outcome
+corrected	im1-a-R2344-P45.1_ENSG00000167749.12	4	dRNA-C4_10-879	300	dRNA-C4_10	yes	yes	dim1-R2252	final model
+corrected	im2-a-R885-P17.0_ENSG00000167749.12	4	dRNA-C4_10-786	300	dRNA-C4_10	yes	yes	dim3-R821	final model
+corrected	im3-a-R524-P10.0_ENSG00000167749.12	3	dRNA-22_10W-1922	300	dRNA-C4_10	yes	yes	dim5-R511	final model
+corrected	im4-a-R313-P6.0_ENSG00000167749.12	3	dRNA-22_10-2110	300	dRNA-C4_10	yes	yes	dim7-R291	final model
+corrected	im5-a-ENST00000599865.5-0-R263-P5.0_ENSG00000167749.12	3	dRNA-C4_10-527	300	dRNA-C4_10	yes	yes	dim8-ENST00000599865.5-0-R262	final model
+corrected	im6-a-KLK4T2-R212-P4.0_ENSG00000167749.12	4	dRNA-22_10W-44	300		no	yes	dim10-KLK4T2-R209	final model
+corrected	im7-a-ENST00000431178.2-0-R192-P3.6_ENSG00000167749.12	3	dRNA-22_10-1034	300	dRNA-C4_10	yes	yes	dim11-ENST00000431178.2-0-R183	final model
+corrected	im8-a-R141-P2.7_ENSG00000167749.12	4	dRNA-C4_0-1066	300	dRNA-C4_10	yes	yes	dim14-R139	final model
+corrected	im9-a-R96-P1.8_ENSG00000167749.12	4	dRNA-C4_0W-438	300	dRNA-C4_10	yes	yes	dim17-R89	final model
+corrected	im10-a-R64-P1.2_ENSG00000167749.12	4	dRNA-22_10-43	300		no	yes	dim18-R57	final model
+corrected	im11-a-R41-P.7_ENSG00000167749.12	3	dRNA-22_0-1685	100	dRNA-C4_0	yes	yes	dim21-R37	final model
+corrected	im12-a-R38-P.7_ENSG00000167749.12	4	dRNA-C4_10W-401	100	dRNA-C4_0	yes	yes	dim19-R42	final model
+corrected	im13-a-R35-P.6_ENSG00000167749.12	3	dRNA-C4_10-569	100	dRNA-C4_0W	yes	yes	dim22-R30	final model
+corrected	im14-a-ENST00000596876.1-R28-P.5_ENSG00000167749.12	2	dRNA-C4_10-2908	100		no	yes	dim20-ENST00000596876.1-R40	final model
+corrected	im15-a-ENST00000593885.1-0-R13-P.2_ENSG00000167749.12	4	dRNA-C4_10-1573	1	dRNA-C4_10	yes	yes	dim27-ENST00000593885.1-0-R12	final model
+corrected	im16-a-R7-P.1_ENSG00000167749.12	4	dRNA-C4_0-59	1		no	yes	dim30-R7	final model
+inconsistent	im17-b-R1796-P36.7_ENSG00000167749.12	5	dRNA-22_0W-1049	300		no	yes	dim2-R1532	final model
+inconsistent	im18-b-R646-P13.2_ENSG00000167749.12	5	dRNA-22_10-1098	300		no	yes	dim4-R523	final model
+inconsistent	im19-b-R460-P9.4_ENSG00000167749.12	4	dRNA-22_0-1107	300		no	yes	dim6-R374	final model
+inconsistent	im20-b-R331-P6.7_ENSG00000167749.12	4	dRNA-22_0-611	300		no	yes	dim9-R253	final model
+inconsistent	im21-b-R240-P4.9_ENSG00000167749.12	4	dRNA-22_10-2949	300		no	no		removed at validation (step 08: duplicate or < 10 reads)
+inconsistent	im22-b-R204-P4.1_ENSG00000167749.12	4	dRNA-22_10W-749	300		no	yes	dim12-R167	final model
+inconsistent	im23-b-R202-P4.1_ENSG00000167749.12	4	dRNA-22_10W-227	300		no	yes	dim15-R129	final model
+inconsistent	im24-b-R157-P3.2_ENSG00000167749.12	2	dRNA-22_10-1404	300		no	yes	dim16-R91	final model
+inconsistent	im25-b-R115-P2.3_ENSG00000167749.12	2	dRNA-22_0-2013	300		no	yes	dim13-R145	final model
+inconsistent	im26-b-R83-P1.6_ENSG00000167749.12	5	dRNA-22_0-683	300		no	yes	dim23-R30	final model
+inconsistent	im27-b-R59-P1.2_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im28-b-R56-P1.1_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im29-b-R48-P.9_ENSG00000167749.12	2	dRNA-22_0-183	300		no	no		removed at validation (step 08: duplicate or < 10 reads)
+inconsistent	im30-b-R46-P.9_ENSG00000167749.12	2	dRNA-22_0-830	300		no	no		removed at validation (step 08: duplicate or < 10 reads)
+inconsistent	im31-b-R41-P.8_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im32-b-R40-P.8_ENSG00000167749.12	2	dRNA-22_10W-185	300		no	no		removed at validation (step 08: duplicate or < 10 reads)
+inconsistent	im33-b-R33-P.6_ENSG00000167749.12	2	dRNA-22_0-2072	300		no	no		removed at validation (step 08: duplicate or < 10 reads)
+inconsistent	im34-b-R28-P.5_ENSG00000167749.12	4	dRNA-22_0W-340	300		no	yes	dim25-R20	final model
+inconsistent	im35-b-R27-P.5_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im36-b-R26-P.5_ENSG00000167749.12	5	dRNA-22_0-1682	300		no	no		removed at validation (step 08: duplicate or < 10 reads)
+inconsistent	im37-b-R23-P.4_ENSG00000167749.12	4	dRNA-22_10-2015	300		no	yes	dim29-R10	final model
+inconsistent	im38-b-R22-P.4_ENSG00000167749.12	5	dRNA-22_10-2979	300		no	no		removed at validation (step 08: duplicate or < 10 reads)
+inconsistent	im39-b-R21-P.4_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im40-b-R19-P.3_ENSG00000167749.12	4	dRNA-22_0W-1658	300		no	yes	dim28-R11	final model
+inconsistent	im41-b-R17-P.3_ENSG00000167749.12	4	dRNA-22_0-1369	300		no	yes	dim26-R14	final model
+inconsistent	im42-b-R17-P.3_ENSG00000167749.12	4	dRNA-22_0-1604			no	no		discarded at QC (no reliable consensus)
+inconsistent	im43-b-R17-P.3_ENSG00000167749.12	4	dRNA-22_0-1970	300		no	no		removed at validation (step 08: duplicate or < 10 reads)
+inconsistent	im44-b-R16-P.3_ENSG00000167749.12	5	dRNA-22_0W-482	300		no	yes	dim24-R27	final model
+inconsistent	im45-b-R16-P.3_ENSG00000167749.12	2	dRNA-22_10W-550			no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im46-b-R15-P.3_ENSG00000167749.12	4	dRNA-22_0-2130			no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im47-b-R13-P.2_ENSG00000167749.12	5	dRNA-22_0-1793			no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im48-b-R12-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im49-b-R11-P.2_ENSG00000167749.12	4	dRNA-22_0-924			no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im50-b-R11-P.2_ENSG00000167749.12	5				no	no		discarded at QC (no reliable consensus)
+inconsistent	im51-b-R11-P.2_ENSG00000167749.12	5	dRNA-22_0W-1106			no	no		discarded at QC (< 10 supporting reads)
+inconsistent	im52-b-R10-P.2_ENSG00000167749.12	4				no	no		discarded at QC (no reliable consensus)

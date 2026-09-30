@@ -1,0 +1,95 @@
+read_set	isoform_id	expected_exons	template_read	freebayes_min_qual	phasing_sample	phased	in_final_set	final_name	outcome
+corrected	im1-a-R1940-P37.7_ENSG00000167749.12	4	cDNA-22_10W-3825	300	cDNA-C4_10	yes	yes	cim2-R1901	final model
+corrected	im2-a-KLK4T2-R1435-P27.9_ENSG00000167749.12	4	cDNA-22_0W-328	20	cDNA-C4_0	yes	yes	cim3-KLK4T2-R1393	final model
+corrected	im3-a-R659-P12.8_ENSG00000167749.12	4	cDNA-22_10W-1088	100	cDNA-C4_0	yes	yes	cim4-R629	final model
+corrected	im4-a-R414-P8.0_ENSG00000167749.12	4	cDNA-C4_0W-150	100	cDNA-C4_0	yes	yes	cim6-R405	final model
+corrected	im5-a-ENST00000431178.2-0-R252-P4.9_ENSG00000167749.12	3	cDNA-22_10-595	100	cDNA-C4_0	yes	yes	cim11-ENST00000431178.2-0-R243	final model
+corrected	im6-a-R70-P1.3_ENSG00000167749.12	4	cDNA-22_0W-1283	100	cDNA-C4_0	yes	yes	cim12-R73	final model
+corrected	im7-a-R68-P1.3_ENSG00000167749.12	4	cDNA-C4_0W-799	100	cDNA-C4_0	yes	yes	cim14-R69	final model
+corrected	im8-a-R68-P1.3_ENSG00000167749.12	4	cDNA-C4_10-879	100	cDNA-C4_0	yes	yes	cim13-R73	final model
+corrected	im9-a-ENST00000596876.1-R61-P1.1_ENSG00000167749.12	2	cDNA-22_10-3859	60	cDNA-C4_0	yes	yes	cim15-ENST00000596876.1-R61	final model
+corrected	im10-a-R22-P.4_ENSG00000167749.12	4	cDNA-22_10W-517	100		no	yes	cim25-R21	final model
+corrected	im11-a-R19-P.3_ENSG00000167749.12	4	cDNA-22_10W-288	10	cDNA-C4_0	yes	yes	cim26-R18	final model
+corrected	im12-a-R17-P.3_ENSG00000167749.12	4				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+corrected	im13-a-R16-P.3_ENSG00000167749.12	3	cDNA-22_10-1411	1	cDNA-C4_0	yes	yes	cim29-R14	final model
+corrected	im14-a-R15-P.2_ENSG00000167749.12	5	cDNA-C4_0-99	1		no	yes	cim30-R14	final model
+corrected	im15-a-R15-P.2_ENSG00000167749.12	4				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+corrected	im16-a-R11-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+corrected	im17-a-R9-P.1_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+corrected	im18-a-R8-P.1_ENSG00000167749.12	3	cDNA-22_0-177	1		no	yes	cim35-R7	final model
+corrected	im19-a-R8-P.1_ENSG00000167749.12	4	cDNA-22_10-229	10		no	yes	cim36-R7	final model
+corrected	im20-a-R7-P.1_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+corrected	im21-a-R5-P0_ENSG00000167749.12	4				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+corrected	im22-a-R5-P0_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+corrected	im23-a-R5-P0_ENSG00000167749.12	3				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+corrected	im24-a-ENST00000599865.5-R4-P0_ENSG00000167749.12	3				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+corrected	im25-a-ENST00000593885.1-0-R3-P0_ENSG00000167749.12	4				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im26-b-R2087-P37.0_ENSG00000167749.12	5	cDNA-22_0-2415	100		no	yes	cim1-R1907	final model
+inconsistent	im27-b-R612-P10.8_ENSG00000167749.12	5	cDNA-22_10W-1304	100		no	yes	cim5-R567	final model
+inconsistent	im28-b-R366-P6.5_ENSG00000167749.12	4	cDNA-22_0-858	100		no	yes	cim8-R328	final model
+inconsistent	im29-b-R366-P6.5_ENSG00000167749.12	4	cDNA-22_0-3318	100		no	yes	cim7-R332	final model
+inconsistent	im30-b-R323-P5.7_ENSG00000167749.12	4	cDNA-22_10W-2540	100		no	yes	cim9-R285	final model
+inconsistent	im31-b-R282-P5.0_ENSG00000167749.12	4	cDNA-22_0W-455	1		no	yes	cim10-R248	final model
+inconsistent	im32-b-R222-P3.9_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im33-b-R129-P2.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im34-b-R64-P1.1_ENSG00000167749.12	5	cDNA-22_0-1095	1		no	yes	cim16-R52	final model
+inconsistent	im35-b-R56-P.9_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im36-b-R53-P.9_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im37-b-R52-P.9_ENSG00000167749.12	5	cDNA-22_0-1095	1		no	yes	cim17-R49	final model
+inconsistent	im38-b-R50-P.8_ENSG00000167749.12	5	cDNA-22_10W-2809	10	cDNA-22_0W	yes	yes	cim18-R46	final model
+inconsistent	im39-b-R46-P.8_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im40-b-R45-P.7_ENSG00000167749.12	5	cDNA-22_10W-321	1		no	yes	cim19-R40	final model
+inconsistent	im41-b-R42-P.7_ENSG00000167749.12	3				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im42-b-R33-P.5_ENSG00000167749.12	4	cDNA-22_10W-344	1		no	yes	cim20-R30	final model
+inconsistent	im43-b-R32-P.5_ENSG00000167749.12	4	cDNA-22_10-789	1		no	yes	cim21-R28	final model
+inconsistent	im44-b-R30-P.5_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im45-b-R30-P.5_ENSG00000167749.12	4	cDNA-22_10W-4177	1		no	yes	cim22-R24	final model
+inconsistent	im46-b-R28-P.4_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im47-b-R25-P.4_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im48-b-R24-P.4_ENSG00000167749.12	6	cDNA-22_10W-441	1		no	yes	cim24-R22	final model
+inconsistent	im49-b-R22-P.3_ENSG00000167749.12	5	cDNA-22_10-206	1		no	yes	cim23-R24	final model
+inconsistent	im50-b-R22-P.3_ENSG00000167749.12	3				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im51-b-R21-P.3_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im52-b-R19-P.3_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im53-b-R18-P.3_ENSG00000167749.12	5	cDNA-22_10W-255	1		no	yes	cim27-R18	final model
+inconsistent	im54-b-R17-P.3_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im55-b-R17-P.3_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im56-b-R17-P.3_ENSG00000167749.12	4				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im57-b-R16-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im58-b-R16-P.2_ENSG00000167749.12	2	cDNA-22_10W-2551	1		no	yes	cim37-R7	final model
+inconsistent	im59-b-R16-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im60-b-R15-P.2_ENSG00000167749.12	5	cDNA-22_0-1190	1		no	yes	cim34-R10	final model
+inconsistent	im61-b-R15-P.2_ENSG00000167749.12	5	cDNA-22_10W-3768	1		no	yes	cim31-R14	final model
+inconsistent	im62-b-R15-P.2_ENSG00000167749.12	5	cDNA-22_10W-349	1		no	yes	cim28-R16	final model
+inconsistent	im63-b-R15-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im64-b-R15-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im65-b-R14-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im66-b-R14-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im67-b-R14-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im68-b-R14-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im69-b-R13-P.2_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im70-b-R13-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im71-b-R13-P.2_ENSG00000167749.12	2	cDNA-C4_10-1500			no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im72-b-R13-P.2_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im73-b-R13-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im74-b-R13-P.2_ENSG00000167749.12	2	cDNA-C4_10-1288			no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im75-b-R13-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im76-b-R13-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im77-b-R13-P.2_ENSG00000167749.12	5	cDNA-22_0W-264	1		no	yes	cim33-R13	final model
+inconsistent	im78-b-R12-P.2_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im79-b-R12-P.2_ENSG00000167749.12	2	cDNA-C4_10-504	1		no	yes	cim32-R14	final model
+inconsistent	im80-b-R12-P.2_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im81-b-R12-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im82-b-R12-P.2_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im83-b-R11-P.1_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im84-b-R11-P.1_ENSG00000167749.12	4				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im85-b-R11-P.1_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im86-b-R10-P.1_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im87-b-R10-P.1_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im88-b-R10-P.1_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im89-b-R10-P.1_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im90-b-R10-P.1_ENSG00000167749.12	3				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im91-b-R10-P.1_ENSG00000167749.12	2				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im92-b-R10-P.1_ENSG00000167749.12	5				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im93-b-R10-P.1_ENSG00000167749.12	3				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)
+inconsistent	im94-b-R10-P.1_ENSG00000167749.12	3				no	no		discarded at QC (< 10 supporting reads or no reliable consensus)

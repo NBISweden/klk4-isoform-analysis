@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or the isoform models, please cite the article below."
+title: "KLK4 transcript isoform analysis (Oxford Nanopore direct RNA and cDNA)"
+authors:
+  - family-names: Pippel
+    given-names: Martin
+    affiliation: "National Bioinformatics Infrastructure Sweden (NBIS), SciLifeLab, Uppsala University"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Identification of new KLK4 transcript variants and characterization of translated isoforms"
+  authors:
+    - family-names: Pippel
+      given-names: Martin
+    - family-names: Carlund
+      given-names: Olivia
+    - family-names: Wikström
+      given-names: Pernilla
+    - family-names: Brattsand
+      given-names: Maria
+  journal: "Molecular Oncology"
+  year: 2026
+  status: submitted

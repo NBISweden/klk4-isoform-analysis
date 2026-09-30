@@ -1,0 +1,9 @@
+sample_id	manuscript_id	cell_line	DHT_nM	fraction	sequencing_batch	dRNA_fastq	cDNA_fastq	dorado_dRNA	dorado_cDNA
+22_0W	22_0W	22Rv1	0	whole-cell lysate	2	22_0W_op_101_007_pass.fastq.gz	fc1_pool3_bc7_22_0W.pass-noTrim.fastq.gz	0.9.1	0.9.0
+22_0	22_0	22Rv1	0	pooled polysome fractions (12-21)	2	22_0_op_101_004_pass.fastq.gz	fc1_pool3_bc4_22_0.pass-noTrim.fastq.gz	0.9.1	0.9.0
+22_10W	22_10W	22Rv1	10	whole-cell lysate	2	22_10W_op_101_008_pass.fastq.gz	fc1_pool4_bc8_22_10W.pass-noTrim.fastq.gz	0.9.1	0.9.0
+22_10	22_10	22Rv1	10	pooled polysome fractions (12-21)	2	22_10_op_101_005_pass.fastq.gz	fc1_pool4_bc5_22_10.pass-noTrim.fastq.gz	0.9.1	0.9.0
+C4_0W	C4_0W	C4-2B	0	whole-cell lysate	2	C4_0W_op_101_006_pass.fastq.gz	fc1_pool2_bc6_C4_0W.pass-noTrim.fastq.gz	0.9.1	0.9.0
+C4_0	C4_0	C4-2B	0	pooled polysome fractions (12-21)	2	C4_0_op_101_002_pass.fastq.gz	fc1_pool2_bc3_C4_0.pass-noTrim.fastq.gz	0.9.1	0.9.0
+C4_10W	C4_10W	C4-2B	10	whole-cell lysate	1	dRNA_C4_10W.fastq.gz	cDNA_bc2_C4_10W.fastq.gz	0.7.1	0.7.1
+C4_10	C4_10	C4-2B	10	pooled polysome fractions (12-21)	2 (dRNA), 1 (cDNA)	C4_10_op_101_003_pass.fastq.gz	cDNA_bc1_C4_10.fastq.gz	0.9.1	0.7.1

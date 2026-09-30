@@ -1,0 +1,11 @@
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	transcript	50882098	50909449	.	-	.	gene_id "KLK4T2"; transcript_id "KLK4T2"; 
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	exon	50882098	50882684	.	-	.	gene_id "KLK4T2"; transcript_id "KLK4T2"; exon_number "4"; exon_id "KLK4T2.4";
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	CDS	50882101	50882684	.	-	2	gene_id "KLK4T2"; transcript_id "KLK4T2"; exon_number "4"; exon_id "KLK4T2.4";
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	exon	50887719	50887874	.	-	.	gene_id "KLK4T2"; transcript_id "KLK4T2"; exon_number "3"; exon_id "KLK4T2.3";
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	CDS	50887719	50887874	.	-	2	gene_id "KLK4T2"; transcript_id "KLK4T2"; exon_number "3"; exon_id "KLK4T2.3";
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	exon	50908646	50908896	.	-	.	gene_id "KLK4T2"; transcript_id "KLK4T2"; exon_number "2"; exon_id "KLK4T2.2";
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	CDS	50908646	50908896	.	-	1	gene_id "KLK4T2"; transcript_id "KLK4T2"; exon_number "2"; exon_id "KLK4T2.2";
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	exon	50909319	50909449	.	-	.	gene_id "KLK4T2"; transcript_id "KLK4T2"; exon_number "1"; exon_id "KLK4T2.1";
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	CDS	50909319	50909449	.	-	0	gene_id "KLK4T2"; transcript_id "KLK4T2"; exon_number "1"; exon_id "KLK4T2.1";
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	start_codon	50909447	50909449	.	-	0	gene_id "KLK4T2"; transcript_id "KLK4T2"; exon_number "1"; exon_id "KLK4T2.1";
+chr19	chr19-cleaned-mod2-KLK4T2_transcripts.genepred	stop_codon	50882098	50882100	.	-	0	gene_id "KLK4T2"; transcript_id "KLK4T2"; exon_number "4"; exon_id "KLK4T2.4";

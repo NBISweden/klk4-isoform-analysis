@@ -1,0 +1,31 @@
+final_name	model	reference_transcript	type	n_exons	haplotypes	consensus_length	structure
+dim1-R2252	im1-a-R2344-P45.1_ENSG00000167749.12		KLK4	4	2	1327	most abundant model; used as reference for the descriptions below
+dim2-R1532	im17-b-R1796-P36.7_ENSG00000167749.12		KLK4	5	1	1194	same as dim1-R2252, but exon 6 is split (135 bp intron) (22Rv1 only)
+dim3-R821	im2-a-R885-P17.0_ENSG00000167749.12		KLK4	4	2	1338	same as dim1-R2252 but exon 3 is 12 bp longer
+dim4-R523	im18-b-R646-P13.2_ENSG00000167749.12		KLK4	5	1	1196	same as dim3-R821, but exon 6 is split (135 bp intron) (22Rv1 only)
+dim5-R511	im3-a-R524-P10.0_ENSG00000167749.12		KLK4	3	2	1435	retained intron, i.e. merged exon 4 and 5, otherwise same as dim3-R821
+dim6-R374	im19-b-R460-P9.4_ENSG00000167749.12		KLK4	4	1	1284	same as dim5-R511, but exon 6 is split (135 bp intron) (22Rv1 only)
+dim7-R291	im4-a-R313-P6.0_ENSG00000167749.12		KLK4	3	2	1188	missing exon 5, exon 3 12 bp longer
+dim8-ENST00000599865.5-0-R262	im5-a-ENST00000599865.5-0-R263-P5.0_ENSG00000167749.12	ENST00000599865.5-0	KLK4	3	2	1410	retained intron, same as dim5-R511 but 12 bp shorter exon 3
+dim9-R253	im20-b-R331-P6.7_ENSG00000167749.12		KLK4	4	1	1073	same as dim7-R291, but exon 6 is split (135 bp intron) (22Rv1 only)
+dim10-KLK4T2-R209	im6-a-KLK4T2-R212-P4.0_ENSG00000167749.12	KLK4T2	KLK4T2-like fusion	4	1	1124	KLK4T2 fusion transcript
+dim11-ENST00000431178.2-0-R183	im7-a-ENST00000431178.2-0-R192-P3.6_ENSG00000167749.12	ENST00000431178.2-0	KLK4	3	2	1193	same as dim7-R291, but exon 3 is 12 bp shorter
+dim12-R167	im22-b-R204-P4.1_ENSG00000167749.12		KLK4	4	1	1069	same as dim11-ENST00000431178.2-0-R183, but exon 6 is split (135 bp intron) (22Rv1 only)
+dim13-R145	im25-b-R115-P2.3_ENSG00000167749.12		KLK4	2	1	375	exon 6 only, split by the 135 bp intron
+dim14-R139	im8-a-R141-P2.7_ENSG00000167749.12		KLK4	4	2	1346	exon 4, 5 and 6b are the same as in dim1-R2252 and dim3-R821 but exon 3 is placed in the intron region between exon 3 and 4
+dim15-R129	im23-b-R202-P4.1_ENSG00000167749.12		KLK4	4	1	945	new model, exon 3 missing, partial exon 4, exon 5 like dim1-R2252, exon 6 is split (135 bp intron) (22Rv1 only)
+dim16-R91	im24-b-R157-P3.2_ENSG00000167749.12		KLK4	2	1	369	exon 6 only, split by the 135 bp intron
+dim17-R89	im9-a-R96-P1.8_ENSG00000167749.12		KLK4	4	2	1330	similar to dim3-R821 but exon 5 starts 4 bp later
+dim18-R57	im10-a-R64-P1.2_ENSG00000167749.12		KLK4T2-like fusion	4	1	1141	same as dim10-KLK4T2-R209 but exon 3 is 12 bp longer
+dim19-R42	im12-a-R38-P.7_ENSG00000167749.12		KLK4	4	2	1311	similar to dim1-R2252 but exon 5 starts 4 bp later
+dim20-ENST00000596876.1-R40	im14-a-ENST00000596876.1-R28-P.5_ENSG00000167749.12	ENST00000596876.1	KLK4	2	1	1009	exon 3 differs by 12 bp from dim1-R2252; one long exon spanning exons 4 and 5 (retained intron) and extending into the intron between exons 5 and 6
+dim21-R37	im11-a-R41-P.7_ENSG00000167749.12		KLK4	3	2	1413	same as dim14-R139 but retained intron between exon 4 and 5
+dim22-R30	im13-a-R35-P.6_ENSG00000167749.12		KLK4	3	2	1207	same as dim14-R139 but no exon 5
+dim23-R30	im26-b-R83-P1.6_ENSG00000167749.12		KLK4	5	1	1198	same as dim2-R1532 but gap in exon 6 is slightly right-shifted (~20 bp)
+dim24-R27	im44-b-R16-P.3_ENSG00000167749.12		KLK4	5	1	1203	similar to dim2-R1532 but exon 5 starts 4 bp later
+dim25-R20	im34-b-R28-P.5_ENSG00000167749.12		KLK4	4	1	1301	same as dim21-R37, but exon 6 is split (135 bp intron) (22Rv1 only)
+dim26-R14	im41-b-R17-P.3_ENSG00000167749.12		KLK4	4	1	978	new model, exon 4 is missing, exon 6 is split (135 bp intron) (22Rv1 only)
+dim27-ENST00000593885.1-0-R12	im15-a-ENST00000593885.1-0-R13-P.2_ENSG00000167749.12	ENST00000593885.1-0	KLK4	4	2	1338	same as dim14-R139 but exon 5 starts 4 bp later
+dim28-R11	im40-b-R19-P.3_ENSG00000167749.12		KLK4	4	1	1086	same as dim22-R30, but exon 6 is split (135 bp intron) (22Rv1 only)
+dim29-R10	im37-b-R23-P.4_ENSG00000167749.12		KLK4	4	1	1297	same as dim8-ENST00000599865.5-0-R262, but exon 3 is 12 bp longer and exon 6 is split (135 bp intron) (22Rv1 only)
+dim30-R7	im16-a-R7-P.1_ENSG00000167749.12		KLK4T2-like fusion	4	1	1363	same as dim10-KLK4T2-R209 but retained intron between exon 4 and 5

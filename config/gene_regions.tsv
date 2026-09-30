@@ -1,0 +1,7 @@
+gene	chrom	start	end	note
+KLK2	chr19	50861443	50880670
+KLK3	chr19	50854728	50860962
+KLK4	chr19	50905245	50911955	main target of this study (also used for the WGS coverage check)
+KLK11	chr19	51022179	51028090	
+KLK14	chr19	51077468	51084276
+KLK15	chr19	50825156	50851615

@@ -1,0 +1,11 @@
+flowchart TD
+    cDNA[/ ONT cDNA reads /] --> data_preprocessing
+    dRNA[/ ONT direct RNA reads /] -->  data_alignment
+    data_preprocessing[[ Pychopper ]] --> data_alignment
+    data_alignment[[minimap2]] --> read_based
+    read_based[[ Read filtering]] --> flair
+    flair[[ Flair ]] --> filtering
+    filtering[[ Isoform filtering ]] --> ecAndph
+    ecAndph[[ Error correction and phasing ]] --> callapsing
+    callapsing[[Isoform collapsing]] --> readQuant
+    readQuant[[ Read Quantification]]
