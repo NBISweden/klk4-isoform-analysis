@@ -1,17 +1,33 @@
 cff-version: 1.2.0
 message: "If you use this software or the isoform models, please cite the article below."
 title: "KLK4 transcript isoform analysis (Oxford Nanopore direct RNA and cDNA)"
+version: 1.0.0
+abstract: >-
+  Analysis code, parameters and final isoform models (BED12, FASTA, read counts) for the
+  reconstruction of KLK4 transcript isoforms from Oxford Nanopore direct RNA and cDNA
+  sequencing of the prostate cancer cell lines 22Rv1 and C4-2B.
 authors:
   - family-names: Pippel
     given-names: Martin
+    orcid: "https://orcid.org/0000-0002-8134-5929"
     affiliation: "National Bioinformatics Infrastructure Sweden (NBIS), SciLifeLab, Uppsala University"
+repository-code: "https://github.com/NBISweden/klk4-isoform-analysis"
 license: MIT
+keywords:
+  - KLK4
+  - kallikrein-related peptidase 4
+  - alternative splicing
+  - Oxford Nanopore
+  - direct RNA sequencing
+  - long-read sequencing
+  - prostate cancer
 preferred-citation:
   type: article
-  title: "Identification of new KLK4 transcript variants and characterization of translated isoforms"
+  title: "Identification of new KLK4 transcript variants and characterization of polysome-associated isoforms"
   authors:
     - family-names: Pippel
       given-names: Martin
+      orcid: "https://orcid.org/0000-0002-8134-5929"
     - family-names: Carlund
       given-names: Olivia
     - family-names: Wikström
@@ -20,4 +36,4 @@ preferred-citation:
       given-names: Maria
   journal: "Molecular Oncology"
   year: 2026
-  status: submitted
+  status: in-preparation

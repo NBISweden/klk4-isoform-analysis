@@ -1,7 +1,7 @@
 # KLK4 isoform analysis — detailed workflow
 
 This document describes step by step how the KLK4 transcript isoforms reported in the
-manuscript (Figs. 5–7, Tables 2–4) were derived from Oxford Nanopore direct RNA (dRNA) and
+manuscript (Figs. 5–7 and S1, Tables 2–4 and S2) were derived from Oxford Nanopore direct RNA (dRNA) and
 PCR-cDNA reads. Each step names the script that implements it.
 
 ![workflow](img/workflow.png)
@@ -98,7 +98,7 @@ set a and 69 in set b (im1–im94). The set b reads come almost exclusively from
 
 For every model:
 
-1. **QC.** The reads assigned by FLAIR are realigned. `scripts/bin/match_splice_sites_v2.py`
+1. **QC.** The reads assigned by FLAIR are realigned. `scripts/bin/match_splice_sites.py`
    keeps only reads with exactly the model's junctions. For each read it reports soft clips,
    indels, end offsets and exon count. Models with < 10 supporting reads are discarded.
 2. **Polishing.** A template read is selected. Criteria, in order: fewest indels, longest
@@ -148,9 +148,13 @@ are the minimum over all SNV sites of the model
 
 ## Step 10 – Figures  (`scripts/10_plot_isoforms.sh`)
 
-`scripts/bin/plot_isoform_usage_v14.py`, a modified FLAIR `plot_isoform_usage`, draws the
+`scripts/bin/plot_isoform_usage.py`, a modified FLAIR `plot_isoform_usage`, draws the
 model structures under the reference transcripts and the per-sample read support
-(manuscript Figs. 6 and 7). The script runs directly on the tables in `results/`.
+(manuscript Figs. 6, 7 and S1). Figs. 6 and 7 show the 10 most abundant models of each
+method (`all-top10/`), split into KLK4 (panels A/B) and KLK4T2-like fusion models (C/D).
+Fig. S1 shows the structures of all final models (`all/`). Models with a premature
+termination codon (`PTC`) are drawn hatched. The script runs directly on the tables in
+`results/`.
 
 ## dRNA vs cDNA comparison (manuscript Table 3)
 

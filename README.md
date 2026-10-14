@@ -2,14 +2,15 @@
 
 Analysis code and final isoform models accompanying the manuscript
 
-> **Identification of new KLK4 transcript variants and characterization of translated isoforms**
+> **Identification of new KLK4 transcript variants and characterization of polysome-associated isoforms**
 > Martin Pippel, Olivia Carlund, Pernilla Wikström, Maria Brattsand
 > (in preparation)
 
 This repository documents how the KLK4 (kallikrein-related peptidase 4) transcript isoforms
 were reconstructed from long-read RNA sequencing of the prostate cancer cell lines 22Rv1 and
 C4-2B (±10 nM DHT; whole-cell lysate and polysome fractions). It covers manuscript section
-2.7 (*Data analysis*), Fig. 5 (workflow), Figs. 6–7 (isoforms) and Tables 2–4.
+2.7 (*Data analysis*) and the figures and tables listed under
+[Manuscript figures and tables](#manuscript-figures-and-tables).
 
 The analysis was performed as a support project of the [National Bioinformatics
 Infrastructure Sweden (NBIS)](https://nbis.se).
@@ -28,7 +29,7 @@ Infrastructure Sweden (NBIS)](https://nbis.se).
    polishing with racon, and SNV phasing with freebayes, WhatsHap and bcftools.
 5. **Final models.** Merge, re-quantify, alignment-based read counting, and
    haplotype-resolved counts.
-6. **Figures.**
+6. **Figures.** Isoform structures and per-sample usage (Figs. 6, 7 and S1).
 
 Result: **30 KLK4 isoform models from dRNA and 37 from cDNA**, including KLK4T2-type
 KLK4–KLKP1 fusion transcripts. No transcript covers the exons that encode the signal
@@ -36,6 +37,25 @@ peptide.
 
 The full step-by-step description, with parameters and intermediate numbers, is in
 **[docs/workflow.md](docs/workflow.md)**.
+
+## Manuscript figures and tables
+
+| manuscript | content | source in this repository |
+|---|---|---|
+| Fig. 5 | analysis workflow | [docs/img/workflow.mmd](docs/img/workflow.mmd) (PNG/SVG next to it) |
+| Fig. 6A/B | 10 most abundant dRNA models: KLK4 structures / usage per sample | `results/KLK4/dRNA/all-top10/`, `scripts/10_plot_isoforms.sh` |
+| Fig. 6C/D | as A/B, KLK4T2-like fusion models | `results/KLK4T2/dRNA/all-top10/` |
+| Fig. 7A–D | as Fig. 6, cDNA | `results/KLK4/cDNA/all-top10/`, `results/KLK4T2/cDNA/all-top10/` |
+| Fig. S1A–D | all final models: dRNA KLK4, dRNA fusions, cDNA KLK4, cDNA fusions | `results/KLK4/*/all/`, `results/KLK4T2/*/all/` (`*_isoforms.png` of step 10) |
+| Table 1 | samples | [config/samples.tsv](config/samples.tsv) |
+| Table 2 | read counts per sample of the 10 most abundant models of each method | `results/KLK4/*/all-top10/`, `results/KLK4T2/*/all-top10/` (`*.counts*.tsv`) |
+| Table 3 | dRNA vs cDNA models (matched by exon structure) | `results/KLK4/comp_dRNA_cDNA/`, `results/KLK4T2/comp_dRNA_cDNA/` |
+| Table 4 | read support of the 10 most abundant KLK4 and KLK3 models (dRNA) | `results/KLK4/dRNA/all-top10/`, `results/KLK3/dRNA/` |
+| Table S1 | putative KLK4 peptides | translated from the dRNA models in `results/KLK4*/dRNA/all/fasta_models/` |
+| Table S2 | complete list of KLK4 and KLK4T2-like models | `results/KLK4*/*/all/`, `results/*/comp_dRNA_cDNA/` |
+
+In the figures, models with a premature termination codon (ORF tag `PTC`, see
+[docs/isoform_naming.md](docs/isoform_naming.md)) are drawn hatched.
 
 ## Repository layout
 
@@ -70,9 +90,9 @@ The full step-by-step description, with parameters and intermediate numbers, is 
 │   │   ├── modify_reference.py         step 00: exon-6 insertion/deletion
 │   │   ├── filter_isoforms_by_region.sh
 │   │   ├── filter_isoforms_by_exon_size.sh
-│   │   ├── match_splice_sites_v2.py    read vs. model splice-junction QC
+│   │   ├── match_splice_sites.py       read vs. model splice-junction QC
 │   │   ├── rank_and_rename_models.py   step 06: rank and name models
-│   │   ├── plot_isoform_usage_v14.py   modified FLAIR plot_isoform_usage
+│   │   ├── plot_isoform_usage.py       modified FLAIR plot_isoform_usage
 │   │   └── colorPalettes/
 ├── ref/                         small reference files (KLK4/KLK4T2 annotation, KLK4T2 cDNA)
 ├── docs/
@@ -112,7 +132,7 @@ bash scripts/07_qc_polish_phase_isoforms.sh all                                 
 bash scripts/08_merge_and_validate_final_models.sh
 bash scripts/09_phase_aware_read_counts.sh                 # dRNA only
 
-# Figures 6/7 can be redrawn directly from results/ (needs only matplotlib/seaborn):
+# Figs. 6, 7 and S1 can be redrawn directly from results/ (needs only matplotlib/seaborn):
 bash scripts/10_plot_isoforms.sh figures/
 ```
 
@@ -137,7 +157,7 @@ bash scripts/10_plot_isoforms.sh figures/
 | Python | 3.12.11 | 00, 07, 08, 10 |
 | pysam | 0.22.1 | 07, 08 |
 | numpy | 2.3.2 | 10 |
-| matplotlib, seaborn | – | 10 |
+| matplotlib, seaborn | 3.11.2, 0.13.2 | 10 |
 
 ## Data availability
 
@@ -153,8 +173,9 @@ If you use this code or the isoform models, please cite the manuscript above (se
 ## Acknowledgements
 
 Computations were performed on resources provided by the National Academic Infrastructure
-for Supercomputing in Sweden (NAISS) at UPPMAX, project NAISS 2024/22-546. Sequencing was
-performed at the NGI Uppsala Genome Center (SciLifeLab).
+for Supercomputing in Sweden (NAISS) at UPPMAX, projects NAISS 2024/22-546 and
+NAISS 2024/22-1471 (extension). Sequencing was performed at the NGI Uppsala Genome Center
+(SciLifeLab).
 
 ## License
 
@@ -162,5 +183,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-Martin Pippel (NBIS), martin.pippel@nbis.se · Maria Brattsand (corresponding author),
-maria.brattsand@umu.se
+Martin Pippel (NBIS), martin.pippel@nbis.se · Olivia Carlund (Umeå University),
+olivia.carlund@umu.se · Maria Brattsand (corresponding author), maria.brattsand@umu.se

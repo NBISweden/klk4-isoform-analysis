@@ -1,0 +1,7 @@
+# output of scripts/10_plot_isoforms.sh
+figures/
+
+# OS / editor / Python
+.DS_Store
+__pycache__/
+*.pyc

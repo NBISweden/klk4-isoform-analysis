@@ -1,24 +1,26 @@
 # Results
 
-Final isoform models and read counts behind manuscript Figs. 6–7 and Tables 2–4. File names
-reflect the workflow steps that produced them.
+Final isoform models and read counts behind manuscript Figs. 6, 7 and S1 and
+Tables 2–4 and S2. File names reflect the workflow steps that produced them.
 
 ```
 results/
 ├── KLK4/                    KLK4 models without the KLKP1 fusion part ("nofusion")
 │   ├── dRNA/
-│   │   ├── all/             27 KLK4 models of the 30 final dRNA models, all 8 samples (Fig. 6A/B)
+│   │   ├── all/             27 KLK4 models of the 30 final dRNA models, all 8 samples (Fig. S1A)
 │   │   │   ├── *.counts.renamed.nofusion.v2.tsv   read counts per sample
 │   │   │   ├── *predictProdORF.nofusion.v2.bed    model structure (BED12, modified chr19) + ORF tag
 │   │   │   ├── fasta_models/                      sequence per model (hap1 if phased)
 │   │   │   └── fasta_models_hap2/                 haplotype-2 sequences of the 12 phased models
-│   │   ├── all-top10/       10 most abundant models
+│   │   ├── all-top10/       KLK4 models among the 10 most abundant models (Fig. 6A/B, Table 2)
 │   │   ├── 22/, 22-top10/   22Rv1 samples only
 │   │   ├── C4/, C4-top10/   C4-2B samples only
 │   │   └── phasing/phasing_results.v2.tsv        per-haplotype counts (step 09)
-│   ├── cDNA/                same layout, 23 KLK4 models of the 37 final cDNA models (Fig. 7A/B)
+│   ├── cDNA/                same layout, 23 KLK4 models of the 37 final cDNA models
+│   │                        (all/: Fig. S1C; all-top10/: Fig. 7A/B)
 │   └── comp_dRNA_cDNA/      models found by both methods / by one method only (Table 3)
-├── KLK4T2/                  KLK4T2-like fusion models: 3 dRNA, 14 cDNA (Figs. 6C/D, 7C/D), same layout
+├── KLK4T2/                  KLK4T2-like fusion models: 3 dRNA, 14 cDNA, same layout
+│                            (all/: Fig. S1B/D; all-top10/: Figs. 6C/D, 7C/D)
 ├── KLK3/                    KLK3 models after step 06 (FLAIR quantification; not curated)
 └── KLK2/                    KLK2 models after step 06 (FLAIR quantification; not curated)
 ```

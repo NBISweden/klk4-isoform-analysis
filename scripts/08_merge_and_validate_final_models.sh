@@ -82,7 +82,7 @@ tail -n +2 "${MODELS}" | while IFS=$'\t' read -r iso set nex aln _; do
     model_bam="${FLAIR_DIR}/${TYPE}-${GENE}_noSE_all_${set}/polishing_quant/${iso}/${iso}.${aln}"
     for s in ${SAMPLES}; do
         o="mapping_bamQuant/${iso}_${s}"
-        python3 "${BIN}/match_splice_sites_v2.py" "${model_bam}" "mapping_bamQuant/${s}.bam" "${o}.output.tsv"
+        python3 "${BIN}/match_splice_sites.py" "${model_bam}" "mapping_bamQuant/${s}.bam" "${o}.output.tsv"
         # keep: same number of exons ($9), 5' soft clip <= MAX_5P_CLIP ($4)
         awk -v e="${nex}" -v m="${MAX_5P_CLIP}" '$9==e && $4<=m {print $5+$6"\t"$0}' "${o}.output.tsv" \
             | sort -k1,1n -k9,9rn -k4,4rn > "${o}.output.filt.tsv"

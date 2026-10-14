@@ -8,7 +8,7 @@
 #      reference sequence, not the transcript sequence of the cell lines, and
 #      some are artefacts. For every model we therefore
 #        QC     : re-align its reads and keep only reads with exactly the model's
-#                 splice junctions (scripts/bin/match_splice_sites_v2.py)
+#                 splice junctions (scripts/bin/match_splice_sites.py)
 #        polish : pick the best read as template and polish it with all other
 #                 supporting reads (racon)  -> read-based model sequence *.m.fa
 #        phase  : call heterozygous SNVs on the polished model (freebayes),
@@ -37,7 +37,7 @@
 #     <set> = corrected | inconsistent
 #
 # Output (per model): <set>/polishing_quant/<model>/
-#   <model>.output.tsv          read QC table (match_splice_sites_v2.py)
+#   <model>.output.tsv          read QC table (match_splice_sites.py)
 #   <model>.m.fa                polished model sequence
 #   <model>.m-spliced.bam       polished model aligned to the modified chr19
 #   <model>.m.freebayes.vcf.gz  SNVs (QUAL filtered)
@@ -98,7 +98,7 @@ qc() {
         | samtools sort --write-index -o "${d}/${iso}.model.bam"
     # columns: read_id isoform_id softclip_left softclip_right n_insertions
     #          n_deletions delta_left delta_right n_exons
-    python3 "${BIN}/match_splice_sites_v2.py" "${d}/${iso}.model.bam" "${d}/${iso}.bam" "${d}/${iso}.output.tsv"
+    python3 "${BIN}/match_splice_sites.py" "${d}/${iso}.model.bam" "${d}/${iso}.bam" "${d}/${iso}.output.tsv"
 }
 
 # -----------------------------------------------------------------------------
