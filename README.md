@@ -184,4 +184,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 Martin Pippel (NBIS), martin.pippel@nbis.se · Olivia Carlund (Umeå University),
-olivia.carlund@umu.se · Maria Brattsand (corresponding author), maria.brattsand@umu.se
+olivia.carlund@umu.se · Maria Brattsand (corresponding author, Umeå University), maria.brattsand@umu.se
